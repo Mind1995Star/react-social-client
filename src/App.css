@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap');
+@import url('https://cdn.jsdelivr.net/npm/animate.css@3.5.2/animate.min.css');
+
+.react-tabs__tab {
+    background-color: rgba(29, 25, 50, .5) !important;
+    border: none !important;
+    color: #68676E !important;
+    font-family: Montserrat;
+    font-weight: bold;
+    padding: 15px 20px !important;
+}
+
+.react-tabs__tab--selected {
+    background-color: #1D1932 !important;
+    background: #1D1932 !important;
+    border: none !important;
+    color: white !important;
+    font-family: Montserrat;
+}
+
+.react-tabs__tab-list {
+    border: none !important;
+    gap: 15px !important;
+    display: flex !important;
+    margin: 0px !important;
+}
+
+.react-tabs__tab-panel {
+    background-color: #1D1932 !important;
+    min-height: 710px;
+    padding: 10px 20px;
+    padding-top: 50px;
+}
